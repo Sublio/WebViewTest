@@ -30,13 +30,30 @@
     [self.webView loadRequest:request];
     */
     
-    
+    /*
     NSString* filePath = [[NSBundle mainBundle]pathForResource:@"1" ofType:@"pdf"];
     
+    NSURL* fileUrl = [NSURL fileURLWithPath:filePath];
+    
+    
+    NSURLRequest* request = [NSURLRequest requestWithURL:fileUrl];
+    
+    [self.webView loadRequest:request];
+    */
+    
+    
+    NSString* htmlString = @"<html><body><p>Hello World</p></body></html>";
+    
+    [self.webView loadHTMLString:htmlString baseURL:nil];
+    
+    
+    
+    
+    /*
     NSData* fileData = [NSData dataWithContentsOfFile:filePath];
     
     [self.webView loadData:fileData MIMEType:@"application/pdf" textEncodingName:@"UTF-8" baseURL:nil];
-    /**/
+    */
     
     
 }

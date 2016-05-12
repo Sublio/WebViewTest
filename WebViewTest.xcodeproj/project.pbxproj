@@ -14,7 +14,6 @@
 		8DC831461CE22D58005498F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC831451CE22D58005498F1 /* Images.xcassets */; };
 		8DC831491CE22D58005498F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC831471CE22D58005498F1 /* LaunchScreen.xib */; };
 		8DC831551CE22D58005498F1 /* WebViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC831541CE22D58005498F1 /* WebViewTestTests.m */; };
-		8DC8315F1CE23FCA005498F1 /* 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8DC8315E1CE23FCA005498F1 /* 1.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		8DC8314E1CE22D58005498F1 /* WebViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC831531CE22D58005498F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC831541CE22D58005498F1 /* WebViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewTestTests.m; sourceTree = "<group>"; };
-		8DC8315E1CE23FCA005498F1 /* 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 1.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +81,6 @@
 		8DC831371CE22D58005498F1 /* WebViewTest */ = {
 			isa = PBXGroup;
 			children = (
-				8DC8315E1CE23FCA005498F1 /* 1.pdf */,
 				8DC8313C1CE22D58005498F1 /* AppDelegate.h */,
 				8DC8313D1CE22D58005498F1 /* AppDelegate.m */,
 				8DC8313F1CE22D58005498F1 /* ViewController.h */,
@@ -204,7 +201,6 @@
 			files = (
 				8DC831441CE22D58005498F1 /* Main.storyboard in Resources */,
 				8DC831491CE22D58005498F1 /* LaunchScreen.xib in Resources */,
-				8DC8315F1CE23FCA005498F1 /* 1.pdf in Resources */,
 				8DC831461CE22D58005498F1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +414,7 @@
 				8DC8315A1CE22D58005498F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DC8315B1CE22D58005498F1 /* Build configuration list for PBXNativeTarget "WebViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +423,7 @@
 				8DC8315D1CE22D58005498F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
