@@ -17,9 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    /*
+    
     NSString* urlString = @"http://google.ru";
-    
-    
     
     NSURL* url = [NSURL URLWithString:urlString ];
     
@@ -27,7 +28,14 @@
     NSURLRequest* request = [NSURLRequest requestWithURL:url];
     
     [self.webView loadRequest:request];
+    */
     
+    
+    NSString* filePath = [[NSBundle mainBundle]pathForResource:@"1" ofType:@"pdf"];
+    
+    NSData* fileData = [NSData dataWithContentsOfFile:filePath];
+    
+    [self.webView loadData:fileData MIMEType:@"application/pdf" textEncodingName:@"UTF-8" baseURL:nil];
     
     
 }
@@ -55,17 +63,59 @@
     [self.indicator startAnimating];
     
 }
+
+-(void) refreshButtons {
+    
+    self.backButtonItem.enabled = [self.webView canGoBack];
+    self.forwardButtonItem.enabled = [self.webView canGoForward];
+    
+}
 - (void)webViewDidFinishLoad:(UIWebView *)webView{
     
     NSLog(@"webViewDidFinishLoad");
     
     [self.indicator stopAnimating];
+    
+    [self refreshButtons];
+    
+    
 }
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error{
     
     NSLog(@"didFailLoadWithError %@", [error localizedDescription]);
     
     [self.indicator stopAnimating];
+    [self refreshButtons];
+}
+
+
+#pragma mark -Actions
+
+
+
+- (IBAction) actionBack:(id)sender{
+    
+    if ([self.webView canGoBack]){
+        [self.webView stopLoading];
+        
+        [self.webView goBack];
+    }
+    
+}
+- (IBAction) actionForward:(id)sender{
+    
+    if ([self.webView canGoForward]){
+        [self.webView stopLoading];
+        
+        [self.webView goForward];
+    }
+    
+}
+- (IBAction) actionRefresh:(id)sender{
+    
+    [self.webView stopLoading];
+    [self.webView reload];
+    
 }
 
 @end

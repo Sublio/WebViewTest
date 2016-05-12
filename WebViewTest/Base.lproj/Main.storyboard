@@ -27,11 +27,35 @@
                                 <rect key="frame" x="374" y="502" width="37" height="37"/>
                                 <color key="color" cocoaTouchSystemColor="darkTextColor"/>
                             </activityIndicatorView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="S6q-3q-Tqu">
+                                <rect key="frame" x="0.0" y="980" width="768" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="rewind" id="7Li-P3-tLZ">
+                                        <connections>
+                                            <action selector="actionBack:" destination="BYZ-38-t0r" id="2FV-XG-EMY"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="fastForward" id="PDd-q2-n6E">
+                                        <connections>
+                                            <action selector="actionForward:" destination="BYZ-38-t0r" id="Wrf-eF-jGb"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="425" style="plain" systemItem="fixedSpace" id="SJY-FB-IFn"/>
+                                    <barButtonItem systemItem="refresh" id="JZN-Za-JsQ">
+                                        <connections>
+                                            <action selector="actionRefresh:" destination="BYZ-38-t0r" id="HDp-6t-G7U"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="1" green="0.68136872398648718" blue="0.60870237463330579" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
+                        <outlet property="backButtonItem" destination="7Li-P3-tLZ" id="s3L-BC-gGo"/>
+                        <outlet property="forwardButtonItem" destination="PDd-q2-n6E" id="tyI-r5-XbR"/>
                         <outlet property="indicator" destination="67N-Mj-nv9" id="87o-0z-PYL"/>
                         <outlet property="webView" destination="ehR-m5-qFG" id="lCh-aj-vH6"/>
                     </connections>
