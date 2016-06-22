@@ -18,7 +18,7 @@
     [super viewDidLoad];
     
     
-    /*
+    
     
     NSString* urlString = @"http://google.ru";
     
@@ -28,7 +28,7 @@
     NSURLRequest* request = [NSURLRequest requestWithURL:url];
     
     [self.webView loadRequest:request];
-    */
+    
     
     /*
     NSString* filePath = [[NSBundle mainBundle]pathForResource:@"1" ofType:@"pdf"];
