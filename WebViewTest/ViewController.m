@@ -20,7 +20,7 @@
     
     
     
-    NSString* urlString = @"http://rambler.ru";
+    NSString* urlString = @"http://google.com";
     
     NSURL* url = [NSURL URLWithString:urlString ];
     
