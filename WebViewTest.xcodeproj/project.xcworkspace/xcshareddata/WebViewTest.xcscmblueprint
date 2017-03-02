@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D62AB731F68B3C93D014F0CD61A735ADDF7BCC88",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D62AB731F68B3C93D014F0CD61A735ADDF7BCC88" : 0,
+    "E40059CFFA684C8CBD4ADFB708E466AEEFC39DF8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "717A653A-F932-4EC1-9AF8-2184EA5D66B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D62AB731F68B3C93D014F0CD61A735ADDF7BCC88" : "WebViewTest\/",
+    "E40059CFFA684C8CBD4ADFB708E466AEEFC39DF8" : "..\/FacebookSimCtl\/FBSimulatorControl"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WebViewTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WebViewTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Sublio\/WebViewTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D62AB731F68B3C93D014F0CD61A735ADDF7BCC88"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:facebook\/FBSimulatorControl.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E40059CFFA684C8CBD4ADFB708E466AEEFC39DF8"
+    }
+  ]
+}
