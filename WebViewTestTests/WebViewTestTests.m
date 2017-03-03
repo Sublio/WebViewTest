@@ -31,5 +31,12 @@
 }
 
 
+- (void)testThisTestWillFail{
+    
+    
+    XCTFail(@"Just for testing");
+}
+
+
 
 @end
