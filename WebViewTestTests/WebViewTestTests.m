@@ -34,7 +34,7 @@
 - (void)testThisTestWillFail{
     
     
-    NSLog(@"This test will passed always")
+    NSLog(@"This test will passed always");
 }
 
 
