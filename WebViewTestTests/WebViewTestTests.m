@@ -28,14 +28,14 @@
 - (void)testExample {
     // This is an example of a functional test case.
     
-    sleep(4)
+    sleep(4);
     XCTAssert(YES, @"Pass");
 }
 
 
 - (void)testThisTestWillAlsoPassed{
     
-    sleep(3)
+    sleep(3);
     NSLog(@"This test will passed always");
 }
 
