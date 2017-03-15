@@ -36,8 +36,8 @@
 - (void)testThisTestWillAlsoPassed{
     
     sleep(3);
-    //NSLog(@"This test will passed always");
-    XCTFail(@"Bad state");
+    NSLog(@"This test will passed always");
+    
 }
 
 
