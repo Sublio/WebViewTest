@@ -3,4 +3,4 @@ os:
 
 osx_image: xcode8.2
 script:
- - xcodebuild -project WebViewTest.xcodeproj -scheme WebViewTest -sdk iphonesimulator build test
+ - xcodebuild -project WebViewTest.xcodeproj -scheme WebViewTest -sdk iphonesimulator build 
