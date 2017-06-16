@@ -2,7 +2,5 @@
 IOS Lessons
 Initial 
 
-Vzhuh! One more time.
 
-Pew! MOAR! абырвалг
-фы вадфлоыва
+iOS project for training purposes

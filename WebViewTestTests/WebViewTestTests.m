@@ -38,6 +38,8 @@
     sleep(3);
     NSLog(@"This test will passed always");
     
+    //XCTFail(@"Fail");
+    
 }
 
 
